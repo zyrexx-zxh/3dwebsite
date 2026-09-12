@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://flusmwebdemo.onrender.com/";
 
 export async function submitInvoice(payload) {
   const res = await fetch(`${API_BASE_URL}/api/verify-invoice`, {
